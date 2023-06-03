@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Internal</title>
+    <style>
+        img{
+            width: 50%;
+            /* height: 300px; */
+            border: 2px solid red;
+            border-radius: 50%;
+        }
+        .img-div{
+            text-align: center;
+        }
+        #par{
+            color: purple;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+            font-weight:900;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+   * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.
+ -->
+
+ <h1 style="color: red; text-align: center;">Using CSS</h1>
+
+ <p style="background-color: chocolate;">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, distinctio. Hic ratione adipisci deserunt consequatur quod, quia iste sapiente dolorum dolores eaque. Vel perferendis eius saepe! Ea ullam tenetur et.
+ </p>
+
+ <div class="img-div">
+    <img src="https://images.unsplash.com/photo-1506760610100-1af6025cf0c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="">
+
+    <img src="https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+ </div>
+
+ <div id="par">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt ipsum possimus ullam laborum, neque reiciendis explicabo sapiente commodi reprehenderit harum, culpa hic voluptatibus tempore odit distinctio perferendis cum nemo. Accusantium!
+ </div>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+#par3{
+    background-color: deepskyblue;
+}
+#par1{
+    background-color: deeppink;
+}
+
+/* override = ezmek */
+#par5{
+    background-color: magenta;
+}
+
+.paragraf{
+    background-color: chartreuse;
+}
